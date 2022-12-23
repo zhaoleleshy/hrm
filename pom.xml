@@ -33,6 +33,7 @@
         <mysql.version>8.0.26</mysql.version>
         <common.version>1.0-SNAPSHOT</common.version>
         <common.model.version>1.0-SNAPSHOT</common.model.version>
+        <MP.version>3.4.0</MP.version>
     </properties>
 
     <dependencyManagement>
@@ -51,6 +52,11 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${MP.version}</version>
             </dependency>
 
         </dependencies>
