@@ -16,7 +16,7 @@ public class Company implements Serializable {
     private static final long serialVersionUID = 1L;
     //ID
     @TableId
-    private String id;
+    private Long id;
     /**
      * 公司名称
      */

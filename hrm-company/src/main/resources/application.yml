@@ -15,11 +15,11 @@ spring:
     password: root
 #mybatis-plus的配置
 mybatis-plus:
-  mapper-locations: classpath*:/mapper/*.xml
+  mapper-locations: classpath*:/mapper/**/*.xml
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: true
   type-aliases-package: com.hrm.entity.company
   global-config:
     db-config:
-      id-type: ID_WORKER
+      id-type: ASSIGN_ID

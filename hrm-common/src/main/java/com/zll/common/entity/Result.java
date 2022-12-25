@@ -38,17 +38,17 @@ public class Result {
     }
 
     //操作成功
-    public static Result SUCCESS() {
+    public static Result success() {
         return new Result(ResultCode.SUCCESS);
     }
 
     //系统错误
-    public static Result ERROR() {
+    public static Result error() {
         return new Result(ResultCode.SERVER_ERROR);
     }
 
     //操作失败
-    public static Result FAIL() {
+    public static Result fail() {
         return new Result(ResultCode.FAIL);
     }
 
